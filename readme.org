@@ -4,7 +4,7 @@
 This is the dataset that accompanies the following publications:
 
 - "Knowledge Curation in a Developer Community: A Study of Stack Overflow and Mailing Lists" by Carlos Gómez Teshima. MSc. Thesis, University of Victoria, 2015.
-- "/How the R Community Creates and Curates Knowledge" by Alexey Zagalsky, Carlos Gómez Teshima, Daniel M. German, Margaret-Anne Storey, Germán Poo-Caamaño 
+- "How the R Community Creates and Curates Knowledge" by Alexey Zagalsky, Carlos Gómez Teshima, Daniel M. German, Margaret-Anne Storey, Germán Poo-Caamaño 
   The 13th International Conference on Mining Software Repositories, 2016.
 
 ** Contents
