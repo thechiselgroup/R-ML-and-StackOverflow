@@ -3,22 +3,22 @@
 
 This is the dataset that accompanies the following publications:
 
-- /"Knowledge Curation in a Developer Community: A Study of Stack Overflow and Mailing Lists"/ by Carlos Gómez Teshima. MSc. Thesis, University of Victoria, 2015.
-- /"How the R Community Creates and Curates Knowledge"/ by Alexey Zagalsky, Carlos Gómez Teshima, Daniel M. German, Margaret-Anne Storey, Germán Poo-Caamaño 
+- "Knowledge Curation in a Developer Community: A Study of Stack Overflow and Mailing Lists" by Carlos Gómez Teshima. MSc. Thesis, University of Victoria, 2015.
+- "/How the R Community Creates and Curates Knowledge" by Alexey Zagalsky, Carlos Gómez Teshima, Daniel M. German, Margaret-Anne Storey, Germán Poo-Caamaño 
   The 13th International Conference on Mining Software Repositories, 2016.
 
 ** Contents
 
 - *R-ML-and-StackOverflow-psql.xz-part00 t0 R-ML-and-StackOverflow-psql.xz-part05*. This is a SQL dump (postgresql) of the database of emails and Stackoverflow
   questions used. The file was compressed using xz and split (due to github restrictions regarding file size). To create the database run the following:
-  (using Linux). Under windows, first concatenate the files (in order, -part00 to -part05, then decompress).
+  (using Linux)
 
 
 #+begin_src 
 cat R-ML-and-StackOverflow-psql.xz-part* | xzcat | pgsql template1
 #+end_src
 
-This will create a database called MLandSOF. 
+This will create a database called MLandSOF.  Under windows, first concatenate the files (in order, -part00 to -part05, then decompress).
 
 
 
