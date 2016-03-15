@@ -18,7 +18,7 @@ This is the dataset that accompanies the following publications:
 cat R-ML-and-StackOverflow-psql.xz-part* | xzcat | pgsql template1
 #+end_src
 
-This will create a database called MLandSOF.  Under windows, first concatenate the files (in order, -part00 to -part05, then decompress).
+This will create a database called MLandSOF.  Under Windows, first concatenate the files (in order, -part00 to -part05), then decompress. The decompressed file is a SQL script that can be read by pgsql.
 
 
 
