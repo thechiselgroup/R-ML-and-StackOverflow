@@ -9,16 +9,26 @@ This is the dataset that accompanies the following publications:
 
 ** Contents
 
+- *R-ML-and-StackOverflow-psql-sample.tar.xz. This is a SQL dump (postgresql) of the database of emails and Stackoverflow
+  samples used in the study. The file was compressed using xz. To create the database run the following:
+  (using Linux)
+
+#+begin_src 
+tar xf R-ML-and-StackOverflow-psql-sample.tar.xz | pgsql template1
+#+end_src
+
+This will create a database called MLandSOF. The decompressed file is a SQL script that can be read by pgsql.
+
 - *R-ML-and-StackOverflow-psql.xz-part00 t0 R-ML-and-StackOverflow-psql.xz-part05*. This is a SQL dump (postgresql) of the database of emails and Stackoverflow
   questions used. The file was compressed using xz and split (due to github restrictions regarding file size). To create the database run the following:
   (using Linux)
-
 
 #+begin_src 
 cat R-ML-and-StackOverflow-psql.xz-part* | xzcat | pgsql template1
 #+end_src
 
 This will create a database called MLandSOF.  Under Windows, first concatenate the files (in order, -part00 to -part05), then decompress. The decompressed file is a SQL script that can be read by pgsql.
+
 
 
 
