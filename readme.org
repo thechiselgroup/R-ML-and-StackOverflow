@@ -11,7 +11,7 @@ This is the dataset that accompanies the following publications:
 
 ~R-ML-and-StackOverflow-psql.xz-part00~ to ~R-ML-and-StackOverflow-psql.xz-part05~ This is a partitioned SQL dump (postgresql) of the *raw data* used for the study. The file was compressed using xz and split (due to github restrictions regarding file size). To re-create the database run the following: (using Linux)
 
-#+begin_src 
+#+begin_src
 cat R-ML-and-StackOverflow-psql.xz-part* | xzcat | pgsql template1
 #+end_src
 
@@ -22,13 +22,13 @@ This will create a database called ~MLandSOF~  Under Windows, first concatenate 
 
 ~R-ML-and-StackOverflow-psql-sample.tar.xz~ This is an SQL database dump (postgresql) of the emails and Stackoverflow posts that were analyzed and coded as part of the study (referred to as the *sample data*). The file was compressed using xz. To create the database run the following: (using Linux)
 
-#+begin_src 
+#+begin_src
 cat R-ML-and-StackOverflow-psql-sample.tar.xz | xzcat > r_ml_so.dump
 #+end_src
 
 And then load the dump using [[https://www.postgresql.org/docs/9.5/static/app-pgrestore.html][pg_restore]]:
 
-#+begin_src 
+#+begin_src
 pg_restore -h localhost -p 5432 -U postgres -d sampledb -v "r_ml_so.dump"
 #+end_src
 
