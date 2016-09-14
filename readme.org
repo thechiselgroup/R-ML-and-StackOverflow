@@ -1,4 +1,4 @@
-* Knowledge Curation in a Developer Community: A Study of Stack Overflow and Mailing Lists
+** Knowledge Curation in a Developer Community: A Study of Stack Overflow and Mailing Lists
 
 This is the dataset that accompanies the following publications:
 
