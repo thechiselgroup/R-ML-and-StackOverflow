@@ -17,6 +17,11 @@ This is the dataset that accompanies the following publications:
 
 #+begin_src 
 cat R-ML-and-StackOverflow-psql-sample.tar.xz | xzcat > r_ml_so.dump
+#+end_src
+
+And then load the dump using [pg_restore](https://www.postgresql.org/docs/8.1/static/app-pgrestore.html):
+
+#+begin_src 
 pg_restore -h localhost -p 5432 -U postgres -d sampledb -v "r_ml_so.dump"
 #+end_src
 
