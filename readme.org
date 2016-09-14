@@ -3,7 +3,7 @@
 This is the dataset that accompanies the following publications:
 
 - "Knowledge Curation in a Developer Community: A Study of Stack Overflow and Mailing Lists" by Carlos Gómez Teshima. MSc. Thesis, University of Victoria, 2015 ([[https://dspace.library.uvic.ca/handle/1828/7011][view publication]])
-- "How the R Community Creates and Curates Knowledge" by Alexey Zagalsky, Carlos Gómez Teshima, Daniel M. German, Margaret-Anne Storey, Germán Poo-Caamaño. The 13th International Conference on [[http://2016.msrconf.org/#/home][Mining Software Repositories]], 2016 ([[http://dl.acm.org/citation.cfm?id=2901772][view publication]])
+- "How the R Community Creates and Curates Knowledge: A Comparative Study of Stack Overflow and Mailing Lists" by Alexey Zagalsky, Carlos Gómez Teshima, Daniel M. German, Margaret-Anne Storey, Germán Poo-Caamaño. The 13th International Conference on [[http://2016.msrconf.org/#/home][Mining Software Repositories]], 2016 ([[http://dl.acm.org/citation.cfm?id=2901772][view publication]])
 
 ** Contents
 
