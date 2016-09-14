@@ -16,7 +16,8 @@ This is the dataset that accompanies the following publications:
   (using Linux)
 
 #+begin_src 
-tar xf R-ML-and-StackOverflow-psql-sample.tar.xz | pgsql template1
+cat R-ML-and-StackOverflow-psql-sample.tar.xz | xzcat > r_ml_so.dump
+pg_restore -h localhost -p 5432 -U postgres -d sampledb -v "r_ml_so.dump"
 #+end_src
 
 This will create a database called MLandSOF. The decompressed file is a SQL script that can be read by pgsql.
