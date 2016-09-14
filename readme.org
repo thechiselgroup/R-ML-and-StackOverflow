@@ -26,7 +26,7 @@ This will create a database called ~MLandSOF~  Under Windows, first concatenate 
 cat R-ML-and-StackOverflow-psql-sample.tar.xz | xzcat > r_ml_so.dump
 #+end_src
 
-And then load the dump using [[https://www.postgresql.org/docs/8.1/static/app-pgrestore.html][pg_restore]]:
+And then load the dump using [[https://www.postgresql.org/docs/9.5/static/app-pgrestore.html][pg_restore]]:
 
 #+begin_src 
 pg_restore -h localhost -p 5432 -U postgres -d sampledb -v "r_ml_so.dump"
